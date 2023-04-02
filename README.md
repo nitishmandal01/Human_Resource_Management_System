@@ -2,7 +2,7 @@
 # StartIndustriesHRM
 
 <div align="center">
-    ![Logo](https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/c/c4/Stark_industries_1.jpg?width=640)
+    <img src="[https://picsum.photos/id/247/300/300](https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/c/c4/Stark_industries_1.jpg?width=640)">
 </div>
 
 
