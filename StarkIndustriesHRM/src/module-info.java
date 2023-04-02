@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author pc
- *
- */
-module StarkIndustriesHRM {
-}
