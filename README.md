@@ -15,7 +15,7 @@ Employees and Departments by the Human Resource Department of the companies.
 ## Users of this application:
 
  - Admin
- - User
+ - Employee
 ## Features Of Admin
 
 - Login with his account.
