@@ -1,7 +1,7 @@
 
 # StartIndustriesHRM
 
-Develop and Implement a Java Based Application to control and manage the data of the
+Developed and Implemented a Java Based Application to control and manage the data of the
 Employees and Departments by the Human Resource Department of the companies.
 
 
