@@ -1,6 +1,8 @@
 
 # StartIndustriesHRM
 
+![Logo](https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/c/c4/Stark_industries_1.jpg?width=640)
+
 Developed and Implemented a Java Based Application to control and manage the data of the
 Employees and Departments by the Human Resource Department of the companies.
 
