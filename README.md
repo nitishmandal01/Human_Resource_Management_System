@@ -46,4 +46,6 @@ Employees and Departments by the Human Resource Department of the companies.
 - Delete account
 - Logout
 
+
+![Logo](https://drive.google.com/file/d/1iki4tFyz_iTDNnBk1HRLPXNzS7PHsckx/view?usp=sharing)
 Thank You
