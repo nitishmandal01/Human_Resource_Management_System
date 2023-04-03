@@ -1,5 +1,5 @@
 
-# Startk Industries HRM
+# Stark Industries HRM
 
 ![Logo](https://oyster.ignimgs.com/mediawiki/apis.ign.com/marvel-studios-cinematic-universe/c/c4/Stark_industries_1.jpg?width=640)
 
