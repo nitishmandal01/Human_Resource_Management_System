@@ -45,3 +45,5 @@ Employees and Departments by the Human Resource Department of the companies.
 - Can see the annual salary of a financial year
 - Delete account
 - Logout
+
+Thank You
