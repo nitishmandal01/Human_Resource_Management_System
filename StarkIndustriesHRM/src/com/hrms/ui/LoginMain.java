@@ -1,6 +1,7 @@
-package com.hrms.login;
+package com.hrms.ui;
 
 import java.sql.SQLException;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -8,8 +9,6 @@ import com.hrms.dao.Login;
 import com.hrms.dto.EmployeeImpl;
 import com.hrms.exception.DepartmentException;
 import com.hrms.exception.EmployeeException;
-import com.hrms.menudisplay.MenuDisplay;
-import com.hrms.tablesprint.ConsoleColors;
 
 public class LoginMain {
 	public static void main(String[] args) throws EmployeeException, InterruptedException {
@@ -18,7 +17,7 @@ public class LoginMain {
 		int choice = 0;
 		do {
 			
-				System.out.println(ConsoleColors.ANSI_GREEN+"*** Please choose Option ***"+ConsoleColors.ANSI_RESET);
+				System.out.println(ConsoleColors.ANSI_GREEN+"CHOOSE FROM BELOW"+ConsoleColors.ANSI_RESET);
 				System.out.println(ConsoleColors.BLUE_BOLD +" 1.Admin Login");
 				System.out.println(" 2.Employee Login");
 				System.out.println(" 0.Exit");
@@ -33,22 +32,23 @@ public class LoginMain {
 			
 			switch(choice) {
 			case 1:
+						
 						try {
 							System.out.println("Enter Password");
 							String pass = sc.next();
 							if(pass.equalsIgnoreCase("admin")) {
-								MenuDisplay.welcomeAdmin();
 								MenuDisplay.admin();
 							}else {
-								System.out.println("Incorrect Password");
+								System.out.println("Wrong Password!!");
 							}
-							
-							
+
 						} catch (DepartmentException e) {
 					 		// TODO Auto-generated catch block
 							System.out.println(e.getMessage());
 						}
-
+					
+				
+				break;
 				
 			case 2:
 				try {

@@ -6,7 +6,7 @@ import com.hrms.dao.DepartmentDao;
 import com.hrms.dao.DepartmentDaoImpl;
 import com.hrms.dto.DepartmentImpl;
 import com.hrms.exception.DepartmentException;
-import com.hrms.tablesprint.PrintTable;
+import com.hrms.ui.PrintTable;
 
 public class GetAllDepartment {
 	public static void main(String[] args) {

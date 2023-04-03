@@ -7,7 +7,7 @@ import com.hrms.dao.EmployeeDao;
 import com.hrms.dao.EmployeeDaoImpl;
 import com.hrms.dto.EmployeeImpl;
 import com.hrms.exception.EmployeeException;
-import com.hrms.tablesprint.PrintTable;
+import com.hrms.ui.PrintTable;
 
 public class GetEmployeeByDepartment {
 	public static void main(String[] args) {

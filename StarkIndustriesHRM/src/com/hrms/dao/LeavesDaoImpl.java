@@ -13,9 +13,9 @@ import com.hrms.dto.LeavesImpl;
 import com.hrms.exception.DepartmentException;
 import com.hrms.exception.EmployeeException;
 import com.hrms.exception.LeavesException;
-import com.hrms.menudisplay.MenuDisplay;
 import com.hrms.operations.PendingLeaves;
-import com.hrms.tablesprint.ConsoleColors;
+import com.hrms.ui.ConsoleColors;
+import com.hrms.ui.MenuDisplay;
 
 public class LeavesDaoImpl implements LeavesDao{
 

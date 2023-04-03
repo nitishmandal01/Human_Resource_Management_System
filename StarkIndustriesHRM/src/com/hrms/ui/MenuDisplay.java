@@ -1,4 +1,4 @@
-package com.hrms.menudisplay;
+package com.hrms.ui;
 
 import java.util.Scanner;
 
@@ -22,7 +22,6 @@ import com.hrms.operations.ShowAllApprovedLeaves;
 import com.hrms.operations.ShowAllRejectedLeave;
 import com.hrms.operations.UpdateDepartment;
 import com.hrms.operations.UpdateEmployee;
-import com.hrms.tablesprint.ConsoleColors;
 
 public class MenuDisplay {
 	public static void admin() throws DepartmentException, EmployeeException, InterruptedException {
@@ -30,8 +29,9 @@ public class MenuDisplay {
 		Scanner sc = new Scanner(System.in);
 		do {
 			System.out.println();
-			System.out.println(ConsoleColors.GREEN_BOLD +"-----------Menus-----------" + ConsoleColors.RESET);
-			System.out.println(ConsoleColors.BLUE_BOLD +"╚═> 1.Add Department");
+			System.out.println(ConsoleColors.GREEN_BOLD +"WELCOME TO ADMIN PANEL" + ConsoleColors.RESET);
+			System.out.println(ConsoleColors.GREEN_BOLD +"CHOOSE FROM BELOW" + ConsoleColors.RESET);
+			System.out.println(ConsoleColors.BLUE_BOLD +" 1.Add Department");
 			Thread.sleep(200);
 			System.out.println(" 2.View All Departments");
 			Thread.sleep(200);
@@ -58,9 +58,7 @@ public class MenuDisplay {
 			System.out.println(" 13.View Rejected Leave Requests");
 			Thread.sleep(200);
 			System.out.println(" Press 0 to Logout");
-			Thread.sleep(200);
-			System.out.println(ConsoleColors.GREEN_BOLD +"************** Choose Option **************"+ ConsoleColors.RESET);
-			
+			Thread.sleep(200);			
 			System.out.println(ConsoleColors.BLUE_BOLD);
     		choice=sc.nextInt();
     		System.out.println(ConsoleColors.RESET);
@@ -136,8 +134,9 @@ public class MenuDisplay {
     	do {
     		
     	    	System.out.println();
-    	    	System.out.println(ConsoleColors.GREEN_BOLD +"--------- Menus --------"+ConsoleColors.RESET);
-    			System.out.println(ConsoleColors.BLUE_BOLD +"╚═> 1.  View Profile");
+    	    	System.out.println(ConsoleColors.GREEN_BOLD +"WELCOME TO ADMIN PANEL" + ConsoleColors.RESET);
+    			System.out.println(ConsoleColors.GREEN_BOLD +"CHOOSE FROM BELOW" + ConsoleColors.RESET);
+    			System.out.println(ConsoleColors.BLUE_BOLD +" 1.  View Profile");
     			
     			System.out.println(" 2.  Update Profile");
     			Thread.sleep(300);
@@ -150,7 +149,6 @@ public class MenuDisplay {
     			System.out.println(" 0.  EXIT"+ConsoleColors.RESET);
     			Thread.sleep(300);
     			System.out.println();
-    			System.out.println(ConsoleColors.GREEN_BOLD +"************** CHOOSE OPTION **************"+ConsoleColors.RESET);
     	    	System.out.println(ConsoleColors.BLUE_BOLD);
     		choice=sc.nextInt();
     		System.out.println(ConsoleColors.RESET);
@@ -192,26 +190,13 @@ public class MenuDisplay {
     	
     }
     
-    public static void welcomeAdmin() {
-		try {
-//			System.out.println("████████████████████████████████████████████████████████████████████████████████");
-//			System.out.println();
-			Thread.sleep(500);
-			System.out.println(ConsoleColors.CYAN_BOLD+ "»»——————————————————————————　WELCOME TO ADMIN PANEL　——————————————————————————««" +ConsoleColors.RESET);
-			Thread.sleep(500);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-	}
     
     public static void welcomeEmployee(Employee employee) {
 		try {
 
 			System.out.println();
 			Thread.sleep(500);
-			System.out.println(ConsoleColors.CYAN_BOLD+"»»——————————————————————————　WELCOME "+employee.getFirstName().toUpperCase()+" "+employee.getLastName().toUpperCase()+" TO EMPLOYEE PANEL　——————————————————————————««"+ConsoleColors.RESET);
+			System.out.println(ConsoleColors.CYAN_BOLD+"　WELCOME TO EMPLOYEE PANEL "+ConsoleColors.RESET);
 			Thread.sleep(500);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block

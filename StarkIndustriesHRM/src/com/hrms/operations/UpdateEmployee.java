@@ -5,7 +5,7 @@ import java.util.Scanner;
 import com.hrms.dao.EmployeeDao;
 import com.hrms.dao.EmployeeDaoImpl;
 import com.hrms.exception.EmployeeException;
-import com.hrms.tablesprint.ConsoleColors;
+import com.hrms.ui.ConsoleColors;
 
 public class UpdateEmployee {
 	public static void main(int id) {

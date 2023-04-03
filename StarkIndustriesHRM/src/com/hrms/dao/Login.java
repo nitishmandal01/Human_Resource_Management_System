@@ -10,7 +10,7 @@ import java.util.Scanner;
 import com.hrms.dto.Employee;
 import com.hrms.dto.EmployeeImpl;
 import com.hrms.exception.EmployeeException;
-import com.hrms.tablesprint.ConsoleColors;
+import com.hrms.ui.ConsoleColors;
 
 public class Login {
 	public static boolean adminLogin() {

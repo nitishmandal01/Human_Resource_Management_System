@@ -1,4 +1,4 @@
-package com.hrms.tablesprint;
+package com.hrms.ui;
 
 public class ConsoleColors {
 	public static final String ANSI_RESET = "\u001B[0m";

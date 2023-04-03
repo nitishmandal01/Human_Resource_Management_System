@@ -1,4 +1,4 @@
-package com.hrms.tablesprint;
+package com.hrms.ui;
 
 import java.util.List;
 

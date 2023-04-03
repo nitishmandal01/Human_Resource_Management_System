@@ -5,7 +5,7 @@ import java.util.Scanner;
 import com.hrms.dao.LeavesDao;
 import com.hrms.dao.LeavesDaoImpl;
 import com.hrms.exception.LeavesException;
-import com.hrms.tablesprint.ConsoleColors;
+import com.hrms.ui.ConsoleColors;
 
 public class ApplyLeave {
 public static void main(int id, String fname,String lname,int departmentid) {

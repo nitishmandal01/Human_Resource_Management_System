@@ -5,7 +5,7 @@ import com.hrms.dao.LeavesDao;
 import com.hrms.dao.LeavesDaoImpl;
 import com.hrms.dto.LeavesImpl;
 import com.hrms.exception.LeavesException;
-import com.hrms.tablesprint.PrintTable;
+import com.hrms.ui.PrintTable;
 
 public class EmployeeLeaveStatus {
 	public static void main(int empid) throws LeavesException {

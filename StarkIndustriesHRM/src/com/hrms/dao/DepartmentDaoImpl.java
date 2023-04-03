@@ -11,7 +11,7 @@ import java.util.Scanner;
 import com.hrms.dto.Department;
 import com.hrms.dto.DepartmentImpl;
 import com.hrms.exception.DepartmentException;
-import com.hrms.tablesprint.ConsoleColors;
+import com.hrms.ui.ConsoleColors;
 
 public class DepartmentDaoImpl implements DepartmentDao {
 
@@ -24,7 +24,7 @@ public class DepartmentDaoImpl implements DepartmentDao {
 		try {
 			conn = DBUtils.connectToDatabase();
 //			System.out.println("Connection successful");
-			String addquery = "INSERT INTO DEPARTMENT(deptName) VALUE (?)";
+			String addquery = "INSERT INTO DEPARTMENT(NAME) VALUE (?)";
 			
 //			System.out.println("Connection Successful");
 			PreparedStatement ps = conn.prepareStatement(addquery);
@@ -60,7 +60,7 @@ public class DepartmentDaoImpl implements DepartmentDao {
 		List<DepartmentImpl> list=new ArrayList();
 		
 		try (Connection con=DBUtils.connectToDatabase()){
-			PreparedStatement ps=con.prepareStatement("select * from  department");
+			PreparedStatement ps=con.prepareStatement("select * from department");
 			ResultSet rs=ps.executeQuery();
 		    while(rs.next()) {
 		    	int id=rs.getInt("id");

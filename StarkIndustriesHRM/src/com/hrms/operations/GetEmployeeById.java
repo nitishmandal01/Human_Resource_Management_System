@@ -3,7 +3,7 @@ package com.hrms.operations;
 import com.hrms.dao.EmployeeDao;
 import com.hrms.dao.EmployeeDaoImpl;
 import com.hrms.exception.EmployeeException;
-import com.hrms.tablesprint.PrintTable;
+import com.hrms.ui.PrintTable;
 
 public class GetEmployeeById {
 	public static void main(int id) {
