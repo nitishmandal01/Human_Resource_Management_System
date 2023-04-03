@@ -46,6 +46,8 @@ Employees and Departments by the Human Resource Department of the companies.
 - Delete account
 - Logout
 
+## ER Diagram
 
-![Logo](https://drive.google.com/file/d/1iki4tFyz_iTDNnBk1HRLPXNzS7PHsckx/view?usp=sharing)
+![ER Diagram](https://drive.google.com/file/d/1iki4tFyz_iTDNnBk1HRLPXNzS7PHsckx/view)
+
 Thank You
