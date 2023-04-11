@@ -48,6 +48,8 @@ Employees and Departments by the Human Resource Department of the companies.
 
 ## ER Diagram
 
-![ER Diagram](https://drive.google.com/file/d/1iki4tFyz_iTDNnBk1HRLPXNzS7PHsckx/view)
+
+![My Image](https://drive.google.com/uc?export=view&id=1iki4tFyz_iTDNnBk1HRLPXNzS7PHsckx)
+
 
 Thank You
