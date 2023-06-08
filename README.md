@@ -13,7 +13,6 @@ Employees and Departments by the Human Resource Department of the companies.
 
 **TechStacks Used:** Java, MySQL, JDBC
 
-
 ## Users of this application:
 
  - Admin
