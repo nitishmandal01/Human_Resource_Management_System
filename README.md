@@ -7,7 +7,6 @@
 Stark Industries HRM is a Java Based Application to control and manage the data of the
 Employees and Departments by the Human Resource Department of the companies.
 
-
 ## Tech Stack
 
 **TechStacks Used:** Java, MySQL, JDBC
